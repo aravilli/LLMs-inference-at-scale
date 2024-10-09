@@ -7,8 +7,6 @@ This is a open source book by like minded people on LLMs inference at scale.  Th
 
 The book focuses more on advanced concepts such as KV Cache utilization, In-flight batch processing, Look a decoding and the application of quantization techniques as well. These topics are pivotal in achieving optimal performance and scalability when deploying LLMs in production environments. Practical guidance includes running performance benchmarks on GPU clusters to evaluate and select the most suitable inference framework for specific application requirements.  Furthermore, the book helps readers with hands-on skills for building robust LLM applications and efficient inferencing. By combining theoretical concepts with practical implementation examples, it prepares engineers  to navigate complexities in deploying and scaling LLMs effectively, ensuring they meet demanding operational standards in real-world scenarios.
 
-
-
 ## LLMs Inference
 
 LLMs inference refers to the process where Large Language Models (LLMs) utilize their learned knowledge to process and generate outputs in response to input data. Inference is a crucial stage in the life cycle of LLMs, occurring after the model has been trained on vast amounts of textual data. During inference, the LLM takes in input, which can be in the form of text, and applies its learned parameters to generate predictions or responses. LLMs inference is characterized by its computational complexity, especially for large models trained on extensive datasets. Optimizing inference involves techniques such as model quantization to reduce computational resources, leveraging specialized hardware like GPUs for faster computations, implementing efficient caching strategies like KV cache, batching requests to effective usage of GPU memory & processing and SOTA techniques like look a decoding etc. 
@@ -22,22 +20,9 @@ LLMs inference is pivotal not only for its ability to process and generate outpu
 ## Chapter 1 :  Overview of Gen AI and LLMs Inference
 This chapter introduces Generative AI and Large Language Models (LLMs), detailing their transformative impact on AI applications. It begins with a broad overview of Generative AI, emphasizing its role in creating data rather than just processing it. The focus then shifts to LLMs, which are advanced models capable of generating human-like text based on extensive datasets. The chapter explores practical applications such as chatbot (text generation ) development and discusses the challenges of deploying LLMs for efficient inference in real-world scenarios.
 
-#### Overview of  Generative AI and LLMs 
-#### Quick overview of LLM Architectures
-#### Introduction to LLMs inference and Taxonomy of Inference methods
-#### Metrics to measure the LLMs inference performance
-#### Deployment of LLMs  and Challenges for Inference
-#### Develop a Text Generation Application using open source LLMs and measure inference metrics 
-#### Develop a Text Generation Application using open source LLMs and measure inference metrics 
-#### Text Generation Application  using Llama Model
-#### Text Generation Application Mistral Model 
-#### Text GenerationApplication GPT2 Model 
-#### Compare the accuracy and inference throughput and latency across the 3 different models
-
 ## Chapter 2 :  Deep Dive on Attention Mechanisms
 
 This chapter focuses on attention mechanisms within LLMs, a critical component enhancing their performance. It provides an in-depth introduction to attention mechanisms, explaining how they enable the model to focus selectively on relevant parts of input data during both learning and inference phases. The chapter categorizes various types of attention mechanisms, including Self-Attention, Multi-Head Attention, and Flash Attention, highlighting their roles in improving model understanding and output coherence. By exploring these mechanisms, the chapter underscores their pivotal role in advancing LLM architectures.  
-
 
 ## Chapter 3 :  Memory bound vs CPU bound trade off in LLMs inference
 This chapter explores the trade-offs between memory-bound and CPU-bound approaches in the inference of Large Language Models (LLMs). It begins with an introduction to GPU architectures and their role in accelerating inference tasks. The discussion then delves into specific examples and trade-offs between memory-bound and CPU-bound approaches, emphasizing their impact on the efficiency and scalability of LLM inference.
