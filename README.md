@@ -39,7 +39,7 @@ This chapter provides the process of benchmarking LLM inference frameworks to as
 ## Chapter 7 :  Role of Quantization on LLMs Inference
 This chapter explores the role of quantization in optimizing LLM inference processes. It introduces quantization as a technique to reduce model size and computational complexity while maintaining inference accuracy. The chapter discusses the application of quantization to foundation models and its benefits in enhancing inference speed and efficiency.
 
-## Chapter 8 :  State of the Art - Research in LLMs inference 
+## Chapter 8 :  State of the Art Research in LLMs inference 
 This chapter provides an overview of the current state of research in Large Language Model (LLM) inference. It explores recent advancements, innovations, and emerging trends in LLM inference techniques. The chapter discusses future prospects and potential directions for further research in optimizing LLMs for various real-world applications.
 
 
