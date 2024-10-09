@@ -1,12 +1,9 @@
 # LLMs Inference At Scale
-
-LLMs Inference at Scale
-## Techniques, Benchmarks, and Frameworks for Efficient LLMs Inference
+# Techniques, Benchmarks, and Frameworks for Efficient LLMs Inference
 
 ## About this book 
 
-This is a open source book by like minded people on LLMs inference at scale.  
-This book offers an extensive exploration into the intricacies of Large Language Models (LLMs) and their inference processes, providing foundational insights essential for understanding their operational mechanisms. Readers will gain a deep understanding of the trade-offs involved in optimizing LLM applications to efficiently handle large-scale user interactions. Emphasis is placed on comprehending how LLMs generate text and the critical considerations in implementing modern inference technologies that prioritize low latency and high throughput.
+This is a open source book by like minded people on LLMs inference at scale.  This book offers an extensive exploration into the intricacies of Large Language Models (LLMs) and their inference processes, providing foundational insights essential for understanding their operational mechanisms. Readers will gain a deep understanding of the trade-offs involved in optimizing LLM applications to efficiently handle large-scale user interactions. Emphasis is placed on comprehending how LLMs generate text and the critical considerations in implementing modern inference technologies that prioritize low latency and high throughput.
 
 The book focuses more on advanced concepts such as KV Cache utilization, In-flight batch processing, Look a decoding and the application of quantization techniques as well. These topics are pivotal in achieving optimal performance and scalability when deploying LLMs in production environments. Practical guidance includes running performance benchmarks on GPU clusters to evaluate and select the most suitable inference framework for specific application requirements.  Furthermore, the book helps readers with hands-on skills for building robust LLM applications and efficient inferencing. By combining theoretical concepts with practical implementation examples, it prepares engineers  to navigate complexities in deploying and scaling LLMs effectively, ensuring they meet demanding operational standards in real-world scenarios.
 
